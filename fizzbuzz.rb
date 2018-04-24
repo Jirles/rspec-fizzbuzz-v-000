@@ -8,6 +8,7 @@ def fizzbuzz(num)
   elsif input%5 == 0 
     puts "Buzz" 
   end 
-#else 
-#nil 
-#end 
+  else 
+    puts nil 
+  end 
+end
