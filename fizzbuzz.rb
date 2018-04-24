@@ -1,14 +1,14 @@
 def fizzbuzz(num)
   if input % 3 == 0 
     if input % 5 == 0 
-      puts "FizzBuzz"
+      return "FizzBuzz"
     end
-    puts "Fizz"
+    return "Fizz"
   end
   elsif input % 5 == 0 
-    puts "Buzz" 
+    return "Buzz" 
   end 
   else 
-    puts nil 
+    return nil 
   end 
 end
